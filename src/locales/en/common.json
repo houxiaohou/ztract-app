@@ -1,0 +1,10 @@
+{
+  "app_name": "Ztract",
+  "welcome_title": "Extract structured data from any document",
+  "welcome_subtitle": "Upload PDFs, images, Word, and Excel files. Ztract converts them into clean JSON or Excel you can use anywhere.",
+  "get_started": "Get started",
+  "signed_in_as": "Welcome back, {{email}}",
+  "not_found_title": "Page not found",
+  "not_found_subtitle": "The page you are looking for doesn't exist or has been moved.",
+  "back_home": "Back to home"
+}
