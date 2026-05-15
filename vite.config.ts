@@ -8,6 +8,10 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
+      '@xparse-kit/visualizer': path.resolve(
+        __dirname,
+        './node_modules/@xparse-kit/visualizer/dist/index.esm.min.js',
+      ),
     },
   },
 });

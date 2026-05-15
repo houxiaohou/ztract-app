@@ -4,7 +4,16 @@
   "welcome_subtitle": "Upload PDFs, images, Word, and Excel files. Ztract converts them into clean JSON or Excel you can use anywhere.",
   "get_started": "Get started",
   "signed_in_as": "Welcome back, {{email}}",
+  "home_title": "Dashboard",
+  "home_subtitle": "Your workspace is ready. New tools will appear here as we roll them out.",
   "not_found_title": "Page not found",
   "not_found_subtitle": "The page you are looking for doesn't exist or has been moved.",
-  "back_home": "Back to home"
+  "back_home": "Back to home",
+  "nav_quota_label": "{{count}} pages available — tap to top up",
+  "user_menu_settings": "Settings",
+  "user_menu_bills": "Bills",
+  "user_menu_sign_out": "Sign out",
+  "settings_title": "Settings",
+  "settings_subtitle": "Account settings are coming soon.",
+  "sign_out_toast": "You have been signed out."
 }

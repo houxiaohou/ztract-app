@@ -127,3 +127,7 @@ Generated files land in `src/components/ui/` — do not modify them directly. Wr
 - 开发环境的接口根路径为：http://127.0.0.1:8000
 - 生产环境的接口根路径为：https://api.ztract.com
 - 生产环境的项目部署域名：https://app.ztract.com
+
+## 其他约定
+- 链接、按钮等可以点击以及有点击事件的元素，需要用 pointer 鼠标；
+- 服务器返回的时间为 utc 时间，需要根据用户本地时间进行展示，所有展示时间的地方都要这么处理。
