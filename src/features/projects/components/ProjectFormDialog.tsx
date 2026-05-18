@@ -167,13 +167,13 @@ export function ProjectFormDialog(props: ProjectFormDialogProps) {
           </div>
           <DialogFooter className="mt-2">
             <DialogClose asChild>
-              <Button type="button" variant="outline" disabled={pending}>
+              <Button className={'cursor-pointer'} type="button" variant="outline" disabled={pending}>
                 {t('cancel')}
               </Button>
             </DialogClose>
             <Button
               type="submit"
-              className={cn('min-w-32')}
+              className={cn('min-w-32', 'cursor-pointer')}
               disabled={pending || !canSubmit}
             >
               {pending ? (

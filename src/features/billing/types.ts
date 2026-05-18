@@ -34,6 +34,7 @@ export interface TierRead {
   pages: number;
   display_name: string;
   prices: Record<string, number>;
+  recommend: boolean;
 }
 
 export interface CheckoutRequest {

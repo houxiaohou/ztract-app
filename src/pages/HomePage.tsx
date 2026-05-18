@@ -66,7 +66,7 @@ export default function HomePage() {
             aria-label={t('search_placeholder')}
           />
         </div>
-        <Button type="button" onClick={() => setDialogOpen(true)}>
+        <Button className={'cursor-pointer'} type="button" onClick={() => setDialogOpen(true)}>
           <PlusIcon className="size-4" />
           {t('create_button')}
         </Button>

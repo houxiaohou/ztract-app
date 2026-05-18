@@ -4194,6 +4194,10 @@
             },
             "type": "object",
             "title": "Prices"
+          },
+          "recommend": {
+            "type": "boolean",
+            "title": "Recommend"
           }
         },
         "type": "object",
@@ -4201,7 +4205,8 @@
           "key",
           "pages",
           "display_name",
-          "prices"
+          "prices",
+          "recommend"
         ],
         "title": "TierRead"
       },

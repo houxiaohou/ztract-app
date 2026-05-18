@@ -163,6 +163,7 @@ export function DocumentDetailDialog({
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
       <DialogContent
+        onEscapeKeyDown={(e)=>e.preventDefault()}
         showCloseButton
         className="grid h-[calc(100dvh-2rem)] w-[calc(100vw-2rem)] max-w-none grid-rows-[minmax(0,1fr)] gap-0 overflow-hidden p-0 sm:max-w-none"
       >
